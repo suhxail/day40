@@ -258,7 +258,7 @@ router.get("/getBookedCustomers", async(req,res) => {
 })
 
 // get booking history
-router.get("/:customer_id/mybooking", async (req, res) => {
+router.get("/:customer_id/mybooking_history", async (req, res) => {
     const customer_id = req.params.customer_id;
     const user = await customer_ids.find((userid) => userid.customer_id == customer_id);
     console.log(booking_ids);
