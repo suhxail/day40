@@ -1,6 +1,6 @@
 const booking_ids = [
     {
-        booking_id: "",
+        booking_id: null,
         hall_id: 1,        
         start_date: 'start_date',
         end_date: "end_date",
@@ -11,7 +11,7 @@ const booking_ids = [
 
     },
     {
-        booking_id: "",
+        booking_id: null,
         hall_id: 2,        
         start_date: 'start_date',
         end_date: "end_date",
@@ -23,7 +23,7 @@ const booking_ids = [
 
     },
     {
-        booking_id: "",
+        booking_id: null,
         hall_id: 3,       
         start_date: 'start_date',
         end_date: "end_date",
@@ -51,46 +51,31 @@ const customer_ids = [
 
 const hall_ids = [
     {
-        hall_id: 1,
-        available_now: false,
-        hall_size: "w*l*b",
-        stage_size: "w*l*b",
+        hall_id: 1,       
         seats: 50,
         price_per_hour: "1500",
         amenities: "amenities",
     },
     {
-        hall_id: 2,
-        available_now: false,
-        hall_size: "w*l*b",
-        stage_size: "w*l*b",
+        hall_id: 2,        
         seats: 50,
         price_per_hour: "1500",
         amenities: "amenities",
     },
     {
-        hall_id: 3,
-        available_now: false,
-        hall_size: "w*l*b",
-        stage_size: "w*l*b",
+        hall_id: 3,        
         seats: 50,
         price_per_hour: "1500",
         amenities: "amenities",
     },
     {
-        hall_id: 4,
-        available_now: false,
-        hall_size: "w*l*b",
-        stage_size: "w*l*b",
+        hall_id: 4,       
         seats: 50,
         price_per_hour: "1500",
         amenities: "amenities",
     },
     {
-        hall_id: 5,
-        available_now: false,
-        hall_size: "w*l*b",
-        stage_size: "w*l*b",
+        hall_id: 5,        
         seats: 80,
         price_per_hour: "3000",
         amenities: "amenities",
